@@ -21,9 +21,3 @@ input_text.pack(pady=5)
 
 tk.Button(root, text="Translate", command=translate_text).pack(pady=10)
 
-tk.Label(root, text="Translated text in Sinhala:").pack(pady=10)
-output_text = tk.Text(root, height=10, width=50)
-output_text.pack(pady=5)
-
-# Run the application
-root.mainloop()
